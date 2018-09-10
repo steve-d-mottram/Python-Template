@@ -11,7 +11,7 @@ deployment
 # Set up python path to include src directory
 
 import sys
-sys.path.insert(1, "src/");
+sys.path.insert(1, "src/")
 
 import pytest
 pytest.main(["tests"], None)
